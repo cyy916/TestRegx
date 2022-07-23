@@ -47,3 +47,4 @@ class DoRegx():
 if __name__ == "__main__":
     s4 = '{"mobile_phone":"${normal_tel}","pwd":"${pwd}","cookie":"${cookie}"}'
     print(DoRegx().do_regx(s4))
+    print("部署到jenkins成功！！！")
